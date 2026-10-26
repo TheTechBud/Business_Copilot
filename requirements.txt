@@ -1,0 +1,5 @@
+# Phase 2 (raw load) needs only psycopg. pandas/SQLAlchemy are for the next phases.
+# Once everything works, pin exact versions with:  python -m pip freeze > requirements.lock.txt
+pandas
+SQLAlchemy
+psycopg[binary]
